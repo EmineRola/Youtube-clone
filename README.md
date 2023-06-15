@@ -4,3 +4,5 @@
 
 <p>Rapi-dapi api sayfsında youtube apisine  axios. get http protokolü ile istek atılarak oluşturlmuştur. Reactın, useEffexr, useState yapısı router-dom yapısı
 context yapısı kullanılmıştır./p>
+
+![](./src/assets/ekran.gif)

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { fetchDataFromApi } from "../utils/api";
 import ReactPlayer from "react-player/youtube";
 import loading from "../assets/loading.gif";
-import VideoCard from "./VideoCard";
+import VideoCard from "./videoCard";
 
 const VideoDetail = () => {
   const [video, setVideo] = useState(null);

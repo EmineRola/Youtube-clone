@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchDataFromApi } from "../utils/api";
-import LeftNav from "./LeftNav";
-import VideoCard from "./VideoCard";
+import LeftNav from "./leftNav";
+import VideoCard from "./videoCard";
 
 const SearchResult = () => {
   const { query } = useParams();

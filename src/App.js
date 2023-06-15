@@ -1,8 +1,8 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Feed from './components/Feed';
-import VideoDetail from './components/VideoDetail';
+import Feed from './components/feed';
+import Header from './components/header'
+import VideoDetail from './components/videoDetail';
 import { ContextProvider } from './context/contextApi';
 import './styles.css';
 

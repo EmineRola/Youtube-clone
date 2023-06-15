@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Context } from "../context/contextApi";
-import LeftNav from "./LeftNav";
-import VideoCard from "./VideoCard";
+import LeftNav from "./leftNav";
+import VideoCard from "./videoCard";
 
 const Feed = () => {
   // context içerisinde tutlan videoları çekme
